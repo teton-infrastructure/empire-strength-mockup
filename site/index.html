@@ -52,6 +52,19 @@
     {"@type":"LocationFeatureSpecification","name":"Free supervised kids area (The Thunderdome)","value":true},
     {"@type":"LocationFeatureSpecification","name":"On-site chiropractor (Chiro Shack)","value":true}
   ],
+  "employee": [
+    {"@type":"Person","name":"Garet Butikofer","jobTitle":"Co-owner and Head Trainer"},
+    {"@type":"Person","name":"Ryan Coronado","jobTitle":"Personal Trainer, IFBB Pro"},
+    {"@type":"Person","name":"Coleman Moore","jobTitle":"Personal Trainer"},
+    {"@type":"Person","name":"Ashley Moore","jobTitle":"Personal Trainer"},
+    {"@type":"Person","name":"Grace Jack","jobTitle":"USAW Level 2 Coach"},
+    {"@type":"Person","name":"Scott Larson","jobTitle":"Powerlifting Coach"},
+    {"@type":"Person","name":"Morgan Quigg","jobTitle":"Personal Trainer"},
+    {"@type":"Person","name":"Preston Buckley","jobTitle":"Personal Trainer"},
+    {"@type":"Person","name":"Crystal Hill","jobTitle":"Personal Trainer"},
+    {"@type":"Person","name":"Kendra Jensen","jobTitle":"HIIT and HYROX Coach"},
+    {"@type":"Person","name":"Sheena Daniels","jobTitle":"Yoga Instructor"}
+  ],
   "award": ["Idaho's Best 2026 (Eastern Idaho) Gold Winner: Best Gym","Idaho's Best 2025 (Eastern Idaho) Winner: Personal Training","Idaho's Best 2024 (Eastern Idaho) Winner: Personal Training"],
   "sameAs": [
     "https://www.facebook.com/theempireofstrength",
@@ -66,7 +79,10 @@
     {"@type":"Offer","name":"Family Hero membership","price":"70","priceCurrency":"USD"},
     {"@type":"Offer","name":"Day pass","price":"20","priceCurrency":"USD"},
     {"@type":"Offer","name":"Week pass","price":"40","priceCurrency":"USD"},
-    {"@type":"Offer","name":"HYROX Training Club monthly","price":"80","priceCurrency":"USD"}
+    {"@type":"Offer","name":"HYROX Training Club monthly","price":"80","priceCurrency":"USD"},
+    {"@type":"Offer","name":"HYROX drop-in class","price":"20","priceCurrency":"USD"},
+    {"@type":"Offer","name":"Single paid in full (12 months)","price":"630","priceCurrency":"USD"},
+    {"@type":"Offer","name":"Family paid in full (12 months)","price":"1000","priceCurrency":"USD"}
   ]
 }
 </script>
@@ -79,6 +95,7 @@
     {"@type":"Question","name":"Is Empire open 24 hours?","acceptedAnswer":{"@type":"Answer","text":"Yes. The gym is open 24/7 for members, using the Empire Idaho Falls app to get in. The office is staffed Monday to Friday, 10:00 am to 5:30 pm."}},
     {"@type":"Question","name":"How much is a membership?","acceptedAnswer":{"@type":"Answer","text":"Single is $60 per month and Family starts at $100 per month. Student is $40, Solo Hero is $35 and Family Hero is $70 per month. A day pass is $20 and a week pass is $40."}},
     {"@type":"Question","name":"Can I bring my kids?","acceptedAnswer":{"@type":"Answer","text":"Yes. Members' kids can use the Thunderdome, Empire's supervised kids area, at no extra cost."}},
+    {"@type":"Question","name":"Can I try Empire before joining?","acceptedAnswer":{"@type":"Answer","text":"Yes. Idaho Falls locals new to Empire get 3 days free, started in the office during office hours (Mon-Fri 10:00 am to 5:30 pm). A day pass is $20 and a week pass is $40."}},
     {"@type":"Question","name":"Is Empire a CrossFit gym?","acceptedAnswer":{"@type":"Answer","text":"No. Empire is not a CrossFit gym, but it is an official HYROX Training Club."}}
   ]
 }
@@ -95,9 +112,10 @@
     </a>
     <nav class="nav" id="nav" aria-label="Main">
       <a href="#disciplines">Train</a>
-      <a href="#coaching">Coaching</a>
+      <a href="#coaching">Coaches</a>
       <a href="#memberships">Memberships</a>
       <a href="#hyrox">HYROX</a>
+      <a href="#community">Community</a>
       <a href="#visit">Visit</a>
     </nav>
     <div class="header-cta">
@@ -182,6 +200,7 @@
       <div>
         <p class="eyebrow">Award-winning personal training</p>
         <h2 class="display">Your goals. Your coach.<br>Your next level.</h2>
+        <p class="section-sub">First-time lifter or competitor, find your fit. Idaho's Best Personal Training winner in 2024 and 2025.</p>
       </div>
       <a class="btn btn-ghost" href="https://www.empirestrengthandfitness.com/training">Help me find a trainer</a>
     </div>
@@ -190,17 +209,97 @@
       <div class="step"><h3>Lift with confidence</h3><p>Refine your technique. Build strength you can use every day.</p></div>
       <div class="step"><h3>Chase your next level</h3><p>Coaching for strength, conditioning and competition goals.</p></div>
     </div>
-    <ul class="coaches">
-      <li><b>Garet Butikofer</b><span>Co-owner &amp; head trainer · Strongman, everything but bodybuilding</span></li>
-      <li><b>Ryan Coronado</b><span>IFBB Pro · Team Show Ready · Bodybuilding &amp; posing</span></li>
-      <li><b>Coleman &amp; Ashley Moore</b><span>Team Peak Level · Bodybuilding &amp; posing</span></li>
-      <li><b>Scott Larson</b><span>Bully Barbell · Powerlifting</span></li>
-      <li><b>Grace Jack</b><span>USAW Level 2 &amp; adaptive trainer · Olympic lifting, powerlifting</span></li>
-      <li><b>Morgan Quigg</b><span>Iron Doctrine Training · Bodybuilding, powerlifting, injury rehab</span></li>
-      <li><b>Preston Buckley</b><span>Fight for It Fitness · Strength, athletics, mobility, kettlebells</span></li>
-      <li><b>Crystal Hill</b><span>ISSA certified · CV Fit · Bodybuilding, nutrition</span></li>
-      <li><b>Kendra Jensen</b><span>Ridgeline Fitness &amp; Nutrition · HIIT &amp; HYROX</span></li>
-      <li><b>Sheena Daniels</b><span>Yoga instructor</span></li>
+    <ul class="coach-grid">
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/garet-butikofer" rel="noopener">
+          <div class="coach-img"><img src="img/coach-garet.webp" alt="Garet Butikofer" width="480" height="480" loading="lazy"></div>
+          <h3>Garet Butikofer</h3>
+          <p class="coach-title">Emperor &amp; head trainer</p>
+          <p class="coach-spec">Strongman · everything but bodybuilding</p>
+          <p class="coach-bio">Co-owner and head trainer. Atlas stones, heavy carries, strongman meets and his SHIIT sessions.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/ryan-coronado" rel="noopener">
+          <div class="coach-img"><img src="img/coach-ryan.webp" alt="Ryan Coronado" width="480" height="480" loading="lazy"></div>
+          <h3>Ryan Coronado</h3>
+          <p class="coach-title">IFBB Pro · Team Show Ready</p>
+          <p class="coach-spec">Bodybuilding · posing · lifestyle</p>
+          <p class="coach-bio">Nationals overall winner in 2020. Has coached 15+ overall champions and Idaho’s first Classic Physique champion.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/coleman-and-ashley-moore" rel="noopener">
+          <div class="coach-img"><img src="img/coach-moores.webp" alt="Coleman &amp; Ashley Moore" width="480" height="480" loading="lazy"></div>
+          <h3>Coleman &amp; Ashley Moore</h3>
+          <p class="coach-title">Owners of Team Peak Level</p>
+          <p class="coach-spec">Bodybuilding · posing · lifestyle</p>
+          <p class="coach-bio">NASM-certified husband-and-wife team and national-level competitors. Ashley is an RN; Coleman is a career firefighter and veteran.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/grace-jack" rel="noopener">
+          <div class="coach-img"><img src="img/coach-grace.webp" alt="Grace Jack" width="480" height="480" loading="lazy"><span class="coach-flag">Fully booked</span></div>
+          <h3>Grace Jack</h3>
+          <p class="coach-title">USAW Level 2 &amp; adaptive trainer</p>
+          <p class="coach-spec">Olympic lifting · powerlifting · lifestyle</p>
+          <p class="coach-bio">Nationally ranked in Olympic weightlifting. Her athletes have set 15 state and national records and a Paralympic world record.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/scott-larson" rel="noopener">
+          <div class="coach-img"><img src="img/coach-scott.webp" alt="Scott Larson" width="480" height="480" loading="lazy"></div>
+          <h3>Scott Larson</h3>
+          <p class="coach-title">Owner, Bully Barbell</p>
+          <p class="coach-spec">Powerlifting</p>
+          <p class="coach-bio">Beginners to advanced athletes, mostly 1-on-1 (groups of 2 on request), with the patience of a longtime educator.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/morgan-quigg" rel="noopener">
+          <div class="coach-img"><img src="img/coach-morgan.webp" alt="Morgan Quigg" width="480" height="480" loading="lazy"></div>
+          <h3>Morgan Quigg</h3>
+          <p class="coach-title">Owner, Iron Doctrine Training</p>
+          <p class="coach-spec">Bodybuilding · powerlifting · injury rehab</p>
+          <p class="coach-bio">Nearly 20 years in strength training and multiple gym lifting records. Helps clients move past chronic shoulder and back pain.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/preston-buckley" rel="noopener">
+          <div class="coach-img"><img src="img/coach-preston.webp" alt="Preston Buckley" width="480" height="480" loading="lazy"></div>
+          <h3>Preston Buckley</h3>
+          <p class="coach-title">Owner, Fight for It Fitness</p>
+          <p class="coach-spec">Strength &amp; athletics · mobility · kettlebells</p>
+          <p class="coach-bio">Strength for all ages, with mobility work so the gains hold up in real life. Every plan is built for the person in front of him.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/crystal-hill" rel="noopener">
+          <div class="coach-img"><img src="img/coach-crystal.webp" alt="Crystal Hill" width="480" height="480" loading="lazy"></div>
+          <h3>Crystal Hill</h3>
+          <p class="coach-title">ISSA certified · owner of CV Fit</p>
+          <p class="coach-spec">Bodybuilding · lifestyle · nutrition</p>
+          <p class="coach-bio">Six-year Army veteran and former gymnast. Works well with hypermobile lifters and loves helping women learn to love weights.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/kendra-jensen" rel="noopener">
+          <div class="coach-img"><img src="img/coach-kendra.webp" alt="Kendra Jensen" width="480" height="480" loading="lazy"></div>
+          <h3>Kendra Jensen</h3>
+          <p class="coach-title">Owner, Ridgeline Fitness &amp; Nutrition</p>
+          <p class="coach-spec">HIIT · HYROX</p>
+          <p class="coach-bio">No-BS functional training for strength, energy and mobility. Background in wildland firefighting and Spartan racing.</p>
+        </a>
+      </li>
+      <li class="coach">
+        <a href="https://www.empirestrengthandfitness.com/training/sheena-daniels" rel="noopener">
+          <div class="coach-img"><img src="img/coach-sheena.webp" alt="Sheena Daniels" width="480" height="480" loading="lazy"></div>
+          <h3>Sheena Daniels</h3>
+          <p class="coach-title">The Warrior Princess</p>
+          <p class="coach-spec">Yoga</p>
+          <p class="coach-bio">High-intensity yoga for women and men alike. She calls it "Bro-ga."</p>
+        </a>
+      </li>
     </ul>
   </div>
 </section>
@@ -220,20 +319,20 @@
       <article class="plan">
         <p class="plan-name">Empire Family</p>
         <p class="price"><small>from</small> $100<small>/mo</small></p>
-        <ul><li>Two people in your household</li><li>Up to 3 kids under 10 free</li><li>Kids 10–17 +$5/mo · adults +$40/mo</li><li>Everything in Single</li></ul>
+        <ul><li>Two people in your household</li><li>Up to 3 kids under 10 free</li><li>Kids 10–17 +$5/mo · adults 18+ +$40/mo</li><li>Example: 2 parents + kids aged 6 and 12 = $105/mo</li><li>Everything in Single, kids area included</li></ul>
         <a class="btn btn-ghost" href="https://www.empirestrengthandfitness.com/join">Join as a family</a>
       </article>
       <article class="plan">
         <p class="plan-name">Student &amp; Hero</p>
         <p class="price"><small>from</small> $35<small>/mo</small></p>
-        <ul><li>Student $40 · Solo Hero $35 · Family Hero $70</li><li>First responders, active &amp; retired military, nurses, teachers</li><li>Set up in the office, Mon–Fri 10–5:30</li><li>Bring student ID or proof of service</li></ul>
+        <ul><li>Student $40 · Solo Hero $35 · Family Hero $70 (you, your spouse, up to 3 kids under 18)</li><li>First responders, active &amp; retired military, nurses, teachers</li><li>Set up in the office, Mon–Fri 10–5:30</li><li>Bring student ID or proof of service</li></ul>
         <a class="btn btn-ghost" href="tel:+12082440037">Call or text to set up</a>
       </article>
     </div>
     <div class="extras">
-      <div><b>3 days free</b><span>New to Empire? Idaho Falls locals can try it first. Start it in the office during staffed hours.</span></div>
+      <div><b>3 days free</b><span>New to Empire? Idaho Falls locals can try it first. One time per person; start it in the office, Mon–Fri 10–5:30, with proof of local residency.</span></div>
       <div><b>$20 day · $40 week</b><span>In town for a day or a week? Full access, app entry after hours.</span></div>
-      <div><b>Paid in full</b><span>Single $630/yr · Family $1,000/yr. Pay for about 10 months, train for 12.</span></div>
+      <div><b>Paid in full</b><span>Single $630/yr · Family $1,000/yr · Solo Hero $350/yr · Family Hero $700/yr. Pay for about 10 months, train for 12. <a href="https://www.empirestrengthandfitness.com/join/paid-in-full">See plans</a></span></div>
     </div>
   </div>
 </section>
@@ -249,17 +348,66 @@
   </div>
 </section>
 
-<section class="recovery">
+<section class="recovery" id="recovery">
   <div class="wrap">
     <p class="eyebrow">Beyond the bar</p>
-    <h2 class="display">Recover. Bring the family. Belong.</h2>
+    <h2 class="display">Recover. Bring the family.</h2>
     <div class="rec-grid">
       <div><h3>Saunas &amp; cold tubs</h3><p>Included in every membership, no upcharge.</p></div>
-      <div><h3>The Thunderdome</h3><p>A free supervised kids area for members, with a live stream on the gym TVs.</p></div>
-      <div><h3>Chiro Shack</h3><p>An on-site chiropractor, in the building.</p></div>
-      <div><h3>Lift Where You Stand</h3><p>A partner nonprofit that hosts events, free community workouts and mentorship.</p></div>
-      <div><h3>Meets &amp; events</h3><p>Strongman, powerlifting, Olympic lifting and bodybuilding events. Partners with Bishop Barbell and Fitness Supply.</p></div>
+      <div><h3>Posing room</h3><p>A dedicated posing room for bodybuilders, included in every membership.</p></div>
+      <div class="rec-chiro"><img src="img/chiro-logo.webp" alt="Chiro Shack logo" width="400" height="400" loading="lazy"><div><h3>Chiro Shack</h3><p>An on-site chiropractor, right in the building. <a href="https://apertahealth.com/chiro-shack-idaho-falls" rel="noopener">Book with Chiro Shack</a></p></div></div>
+      <div><h3>The Thunderdome</h3><p>A free kids area for members' kids under 10, upstairs at the south end above the main office. Cameras, plus a live stream on the gym TVs so parents can watch anytime.</p></div>
+      <div><h3>Thunderdome Guardians</h3><p>Help out 8 hours a month and get an Empire Family membership while you're active. Includes an application and background check. <a href="https://www.empirestrengthandfitness.com/thunderdome">Learn more</a></p></div>
       <div><h3>The crew</h3><p>Family friendly, a community of lifters, and yes, we love dogs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="community" id="community">
+  <div class="wrap">
+    <p class="eyebrow">Grow the Empire. Lift the Empire.</p>
+    <h2 class="display">Strength that<br>reaches past the gym.</h2>
+    <div class="comm-grid">
+      <article class="comm comm-lead">
+        <h3>Lift Where You Stand</h3>
+        <p>Empire's partner nonprofit hosts events, free community workouts and mentorship. Its mission: providing a foundation for our community to empower themselves through strength and fitness.</p>
+        <a class="btn btn-ghost btn-sm" href="https://www.empirestrengthandfitness.com/lift-where-you-stand">About LWYS</a>
+      </article>
+      <article class="comm">
+        <p class="comm-when">Saturdays · 1:30 pm · Free</p>
+        <h3>Boxing with Parkinson's</h3>
+        <p>Free weekly boxing for people with early onset Parkinson's, run by Lift Where You Stand and led by Keith Director of Director Boxing &amp; Training. No registration needed, but please reach out ahead so they can manage class sizes: <a href="tel:+12085699362">208-569-9362</a>.</p>
+      </article>
+      <article class="comm">
+        <p class="comm-when">Open to everyone · Free</p>
+        <h3>Community yoga with Sheena</h3>
+        <p>Sheena's free yoga classes are open to members and non-members, beginners and experienced alike.</p>
+      </article>
+      <article class="comm">
+        <p class="comm-when">Strongman · annual</p>
+        <h3>The Sinister Games</h3>
+        <p>Empire's annual strongman show. Spectating is free.</p>
+      </article>
+      <article class="comm">
+        <p class="comm-when">Powerlifting · annual</p>
+        <h3>Battle for the Throne</h3>
+        <p>A powerlifting meet at Center Stage Theatre in Idaho Falls, with lights, lasers and a DJ. <a href="https://www.empirestrengthandfitness.com/events">Events</a></p>
+      </article>
+      <article class="comm">
+        <p class="comm-when">Member add-on · $60/mo</p>
+        <h3>The Empire Mercenary Company</h3>
+        <p>Empire's own D&amp;D party meets monthly on Saturdays, and your workouts level up your character.</p>
+      </article>
+    </div>
+    <div class="feds">
+      <p>Sanctioning bodies &amp; partners</p>
+      <div class="fed-row">
+        <a href="https://strongmancorporation.com/" rel="noopener"><img src="img/strongman-logo.webp" alt="Strongman Corporation" width="252" height="252" loading="lazy"></a>
+        <a href="https://www.usaweightlifting.org/" rel="noopener"><img src="img/usaw-logo.webp" alt="USA Weightlifting" width="252" height="230" loading="lazy"></a>
+        <a href="https://uspa.net/" rel="noopener"><img src="img/uspa-logo.webp" alt="USPA Powerlifting" width="342" height="218" loading="lazy"></a>
+        <a href="https://worldpowerliftingcongress.com/" rel="noopener"><img src="img/apf-logo.webp" alt="APF powerlifting" width="226" height="230" loading="lazy"></a>
+        <span class="fed-text">Bishop Barbell<br>&amp; Fitness Supply</span>
+      </div>
     </div>
   </div>
 </section>
@@ -282,6 +430,8 @@
       <details><summary>When is someone at the gym?</summary><p>The gym is open 24/7 for members. The office is staffed Monday to Friday, 10:00 am to 5:30 pm.</p></details>
       <details><summary>Why do discounts have to be set up in person?</summary><p>We check a student ID or proof of service once, in the office during office hours. After that it bills like any other membership.</p></details>
       <details><summary>Can I bring my kids?</summary><p>Yes. Members' kids can use the Thunderdome, our kids area, at no extra cost.</p></details>
+      <details><summary>Can I try it first?</summary><p>Yes. Idaho Falls locals new to Empire get 3 days free, started in the office during office hours. A day pass is $20 and a week pass is $40.</p></details>
+      <details><summary>What happens after a paid-in-full year?</summary><p>It renews automatically for another 12 months unless you opt out before the renewal date. Paid-in-full plans are non-refundable but transferable.</p></details>
       <details><summary>Is this a CrossFit gym?</summary><p>No. But we are an official HYROX Training Club.</p></details>
     </div>
   </div>
@@ -302,6 +452,7 @@
       <div><dt>Hours</dt><dd>Gym: 24/7 for members<br>Office: Mon–Fri, 10 am – 5:30 pm</dd></div>
       <div><dt>Call or text</dt><dd><a href="tel:+12082440037">208-244-0037</a></dd></div>
       <div><dt>Email</dt><dd><a href="mailto:lift@empirestrengthandfitness.com">lift@empirestrengthandfitness.com</a></dd></div>
+      <div><dt>The Empire Idaho Falls app</dt><dd class="apps"><a href="https://apps.apple.com/us/app/empire-idaho-falls/id6572282947" rel="noopener">App Store</a><a href="https://play.google.com/store/apps/details?id=com.treshna.memberportal.empiregym" rel="noopener">Google Play</a></dd></div>
     </dl>
   </div>
 </section>
@@ -310,7 +461,7 @@
 <footer class="footer">
   <div class="wrap footer-row">
     <p>© 2026 Empire Strength and Fitness LLC</p>
-    <nav aria-label="Social"><a href="https://www.instagram.com/empirestrengthandfitness" rel="noopener">Instagram</a><a href="https://www.facebook.com/theempireofstrength" rel="noopener">Facebook</a><a href="https://www.youtube.com/@EmpireStrengthandFitness" rel="noopener">YouTube</a></nav>
+    <nav aria-label="Social"><a href="https://www.instagram.com/empirestrengthandfitness" rel="noopener">Instagram</a><a href="https://www.facebook.com/theempireofstrength" rel="noopener">Facebook</a><a href="https://www.youtube.com/@EmpireStrengthandFitness" rel="noopener">YouTube</a><a href="https://g.page/r/Cc7J6oxTKd-LEBM/review" rel="noopener">Leave a Google review</a></nav>
     <p class="muted">Concept by Teton Infrastructure. Photos from empirestrengthandfitness.com.</p>
   </div>
 </footer>
