@@ -58,3 +58,8 @@ Plain HTML/CSS with a few lines of JS on Cloudflare's edge. The whole page is a 
 6. Sticky Call / Text / Join bar on phones; ~33 KB HTML vs. 1.45 MB on the Wix home page.
 
 Review quotes: Google reviews appear in search snippets (e.g., Birdeye), but the Birdeye page no longer shows the text and Google Maps can't be opened from the box, so no quotes are on the mockup. If Empire OKs it, 2–3 quotes copied straight from their Google profile can be added.
+
+## Site structure (multi-page, Nov 19, 2026)
+One page per menu item, with clean URLs, a shared header, footer, mobile bar and CSS/JS:
+`/` Home · `/training/` · `/coaches/` · `/memberships/` · `/amenities/` · `/community/` · `/contact/`.
+Training and Coaches cross-link: a "Meet the coaches" strip on /training/, and each coach's specialties link to the matching discipline on /training/.
