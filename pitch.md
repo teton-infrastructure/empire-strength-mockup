@@ -3,12 +3,12 @@
 **Live preview:** https://empire-strength-mockup.pages.dev (noindex, concept only)
 
 ## The one-line pitch
-Your gym is already the strength house of Idaho Falls. Your website should say it in the first two seconds, load instantly on a phone, and tell Google and AI the right phone number.
+Your gym is already where Idaho Falls gets strong. Your website should say it in the first two seconds, load instantly on a phone, and tell Google and AI the right phone number.
 
 ## What changed and why
 
-**1. Positioned as a strength house, not a health club.**
-The hero now reads "Not a health club. A strength house." over a real photo of your rack row, followed by powerlifting, strongman, Olympic lifting, bodybuilding and HYROX. The six disciplines get their own numbered grid. The tone (sharp type, obsidian black, Empire red) is about putting weight on the bar and becoming your best self, not wellness.
+**1. Strength-first, and open to everyone.**
+The hero now reads "Built for strength. Open to all." over a real photo of your rack row, followed by powerlifting, strongman, Olympic lifting, bodybuilding and HYROX. The six disciplines get their own numbered grid. The tone (sharp type, obsidian black, Empire red) is about putting weight on the bar and becoming your best self, with first-time lifters and competitors equally welcome.
 
 **2. The offer up front, every time.**
 "Join · $60/mo" and "Try a day · $20" are the first buttons you see. On phones, a sticky bar keeps **Call · Text · Join $60/mo** under the thumb on every screen.

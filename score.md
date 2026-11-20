@@ -27,7 +27,7 @@ Audited: Nov 19, 2026 (MST). Pages fetched with curl (home, /join, /join/paid-in
 
 ### What's good (honestly)
 - Clear, transparent pricing with no contract, no sign-up fee, easy cancel, and a math-backed paid-in-full page.
-- A real point of view: "Owned and operated by actual weight lifters", "We are not a CrossFit® gym", "Go forth and conquer."
+- A real point of view: "Owned and operated by actual weight lifters", "Go forth and conquer."
 - Real coach roster, real photos of the floor, real community programs (LWYS, Boxing with Parkinson's, Thunderdome).
 
 ## Business facts (from empirestrengthandfitness.com unless noted)
