@@ -45,9 +45,11 @@ Audited: Nov 19, 2026 (MST). Pages fetched with curl (home, /join, /join/paid-in
 - **Social:** facebook.com/theempireofstrength, instagram.com/empirestrengthandfitness, youtube.com/@EmpireStrengthandFitness
 - **Google rating:** 4.9★. The site says "160+ reviews"; Google-derived directories show 159 (exa.ai), 162 (Coldlytics, Oct 2026), 168 (D7). Google Maps itself couldn't be opened from the box.
 
-### Not verified / left out of the mockup
-- No individual Google review quotes were verified, so none are shown.
-- Coach photos and bios beyond name/specialty were not used.
-- Whether Boxing with Parkinson's (Saturdays 1:30 pm, "starting May 11, 2024") still runs.
-- Which trial is current (3-day vs. 7-day).
-- Map coordinates in schema come from a Google-derived directory (exa.ai), not the site.
+### Mockup update (Nov 19, 2026): built from what's on the live site
+- Added all 10 coach cards with real photos from /training (object-fit cover, top-aligned), titles, specialties and short bios from each trainer page; Grace Jack marked "Fully booked" as on her page.
+- Added Chiro Shack (logo + Aperta Health booking link), posing room, Thunderdome details and the Thunderdome Guardians program.
+- New Community section: Lift Where You Stand, Boxing with Parkinson's (Saturdays 1:30 pm, Keith Director), free community yoga with Sheena (from their Instagram feed on the home page), The Sinister Games, Battle for the Throne, and the D&D Empire Mercenary Company add-on (tucked into Community, not in the hero).
+- Federation/partner logos as linked on their home page (Strongman Corporation, USA Weightlifting, USPA, APF to worldpowerliftingcongress.com) plus Bishop Barbell & Fitness Supply (text only; no logo on their site).
+- Empire Idaho Falls app links (App Store, Google Play), Google review link, paid-in-full and hero yearly rates, family-plan example.
+- Offers use the primary home/membership versions: 3-day free trial, office Mon–Fri 10 am–5:30 pm. The unlinked /7-day-trial campaign page was not used.
+- Still no Google review quotes (none on their site). Garet's only site photo is the whiteboard shot; used as-is.
