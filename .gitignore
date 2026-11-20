@@ -4,3 +4,4 @@ view/
 !site/*.html
 node_modules/
 package.json
+*.txt
